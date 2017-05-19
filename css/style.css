@@ -1,0 +1,114 @@
+/*Fonts*/
+@font-face {
+    font-family: Neou;
+    src: url("fonts/Neou-Bold.ttf")
+}
+@font-face {
+    font-family: GeoSans;
+    src: url("fonts/GeosansLight.ttf")
+}
+
+
+/*Header*/
+#main-header {
+    background-image: url("images/bg small.jpg");
+    font-family: Neou;
+    width:95%;
+    padding-bottom:300px;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#headertxt {
+    font-size:60px;
+    position:relative;
+    top:150px;
+    color:white;
+    text-shadow:3px 3px 2px black
+}
+#main-header h2 {
+    font-size:40px;
+    padding-bottom:10px;
+}
+#main-button {
+    width:50%;
+    color:white;
+    position:relative;
+    top:150px;
+    left:25%;
+    right:25%;
+    font-size:30px;
+}
+#main-button button p {
+    margin-bottom: -10px;
+}
+#main-button button {
+    background-color:#295925;
+    width:335px;
+    border-color: white;
+    border-width:5px;
+    box-shadow:3px 3px 2px black;
+}
+#main-button button:hover {
+    width:325px;
+}
+
+/*Nav*/
+
+#navbar {
+    background-color: #568c52;
+    width:100%;
+}
+
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #568c52;
+    position:relative;
+    left:37%;
+    right:37%;
+    font-size:25px;
+    font-family: Neou;
+    width:auto;
+}
+li {
+    float:left;
+    background-color:#366832;
+}
+li a {
+    display:block;
+    color:white;
+    padding:16px;
+    padding-top:20px;
+    text-decoration:none;
+}
+
+li a:hover {
+    background-color:#295925;
+    text-decoration: none;
+    color:white;
+}
+
+/*Home*/
+#front-info {
+    width:80%;
+    margin: 0 auto;
+    font-family:GeoSans;
+}
+#breaker {
+    margin-top:-100px;
+    margin-bottom:-120px;
+    left:25%;
+    right:25%;
+    position:relative;
+    width:750px;
+    height:300px;
+}
+
+/* Base Changes */
+body {
+    background-color:#bbe5a7;
+    color:darkslategray
+}
