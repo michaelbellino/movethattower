@@ -67,11 +67,10 @@
     overflow:hidden;
     background-color: #568c52;
     position:relative;
-    left:37%;
-    right:37%;
+    margin: 0 auto;
     font-size:25px;
     font-family: Neou;
-    width:auto;
+    width:420px;
 }
 li {
     float:left;
