@@ -70,7 +70,7 @@
     margin: 0 auto;
     font-size:25px;
     font-family: Neou;
-    width:420px;
+    width:620px;
 }
 li {
     float:left;
@@ -89,25 +89,54 @@ li a:hover {
     text-decoration: none;
     color:white;
 }
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
 
 /*Home*/
 #front-info {
     width:80%;
     margin: 0 auto;
     font-family:GeoSans;
+    z-index:1;
 }
 #breaker {
     margin-top:-100px;
     margin-bottom:-120px;
-    left:25%;
-    right:25%;
+    left:20%;
+    right:20%;
     position:relative;
     width:750px;
     height:300px;
+    z-index:-1;
 }
 
 /* Base Changes */
 body {
     background-color:#bbe5a7;
     color:darkslategray
+}
+
+/*Section Header*/
+#secthead {
+    font-family:;
+    font-size:60px;
+    text-align: center;
+   
+}
+
+/*About*/
+#aboutinfo p {
+    font-size:22px;
+    width:100%;
+}
+
+/*Help*/
+#helpinfo {
+    width:100%;
 }

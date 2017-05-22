@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>$(document).ready(function() {
+  var stickyNavTop = $('.nav').offset().top;
+
+  var stickyNav = function(){
+    var scrollTop = $(window).scrollTop();
+
+    if (scrollTop > stickyNavTop) { 
+      $('.nav').addClass('sticky');
+    } else {
+      $('.nav').removeClass('sticky'); 
+    }
+  };
+
+  stickyNav();
+
+  $(window).scroll(function() {
+    stickyNav();
+  });
+});</script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>MOVE THE TOWER</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -9,7 +28,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+   <section id="home">
     <header class="center text-center">
 		<div class="container center" id="main-header"> 
       <h1 class="text-center" id="headertxt">MOVE THE TOWER</h1>
@@ -21,24 +40,46 @@
       <ul id="navlist" class="center">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#help">How to Help</a></li>
         <li><a href="#contact">Contact Us</a></li>
 
           </ol>
           </nav>
 <br>
 
-          <section id="home">
+         
             <div id="front-info" class="container center">
-              <h1 class="text-center">A company called Eco Site, Inc. is attempting to construct a 125 foot tall cellular tower inside the White Clay River Preserve.</h1>
+              <h1 class="text-center">A company called Eco Site, Inc. is attempting to construct a 125 foot tall cellular tower contiguous the White Clay River Preserve.</h1>
               <h2 class="text-center">Building this cell tower will not only destroy the tranquil and astonishing views that the preserve presents to its neighboring residents, but will harm the wild life and vegetation.</h2>
 
-  <img src="css/images/section_breaker.svg" id="breaker" class="center">
 
-              <h1 class="text-center">Attending the hearings is THE best way to be heard!</h2>
-              <h2 class="text-center">The next hearing will take place at the New Garden Township Building on June 19th at 7pm!</h3>
+
+              <h1 class="text-center"><b>Attending the hearings is THE best way to be heard!</b></h2>
+              <h2 class="text-center"><b>The next hearing will take place at the <a href="https://www.newgarden.org/"> New Garden Township Building </a> on June 19th at 7pm!</b></h2>
+              <h2 class="text-center"><i>More dates coming soon...</i></h2>
+
+<img src="css/images/section_breaker.svg" id="breaker" class="center">
 
               </div>
             </section>
+            <section id="about">
+              <h1 id="secthead" class="text-center"><b>ABOUT</b></h1>
+              <div id="aboutinfo" class="container center">
+              <p>An application has been received for conditional use approval by the New Garden Township Board of Supervisors to construct a 130-foot communications tower located at 1511 Yeatman's Station Road, Landenberg PA.<br>
+Concerned citizens of Landenberg oppose the placement of a communications tower on the Santoros’ property due to its proximity to the White Clay Creek Preserve.  The White Clay Creek Preserve possesses outstanding scenic, wildlife, recreational, and cultural value.  It is home to over 90 species of birds and provides habitat to over 100 varieties of migratory birds, including American Bald Eagles; birds of conservation concern, and rare plants, including three endangered, one threatened, and two rare plant species. <br><br>
+Beyond the irreparable harm to the birds and habitat of the Preserve, the proposed tower will cause property values in the vicinity of the Preserve to decline. Those residents purchased their homes, and paid a premium price for, the visual beauty which the Park provides. Stealth means of camouflage would create an eyesore as the tower would be some thirty feet above the natural tree line and could be seen for miles around.<br><br>
+There are other commercial and municipals lands available in New Garden Township, many with higher elevations, which would not pose the same concerns as the location proposed by the Santoros. For all of the reasons stated above, concerned citizens of Landenberg respectfully ask the Board of Supervisors to vote NO to placing a communications tower on the Santoros’ property which located in the midst of some of the most beautiful, scenic, unique, lands in New Garden and London Britain Townships, and within Southern Chester County as a whole.<br><br>
+</p>
+
+<img src="css/images/section_breaker.svg" id="breaker" class="center">
+
+              </div>
+              </section>
+              <section id="help">
+                <h1 id="secthead" class="text-center"><b>HOW TO HELP</b></h1>
+                <div class="container center" id="helpinfo">
+                </div>
+                </section>
 
 </body>
 </html>
