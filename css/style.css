@@ -13,7 +13,7 @@
 #main-header {
     background-image: url("images/bg small.jpg");
     font-family: Neou;
-    width:95%;
+    width:75%;
     padding-bottom:300px;
     background-origin: content-box;
     background-size: cover;
@@ -103,12 +103,17 @@
 }
 
 /*Home*/
-#front-info {
-    width:80%;
-    margin: 0 auto;
+#front-info-left {
     font-family:GeoSans;
     z-index:1;
+    font-size:22px;
 }
+#front-info-right {
+    font-family:GeoSans;
+    z-index:1;
+    font-size:22px;
+}
+
 #breaker {
     margin-top:-100px;
     margin-bottom:-120px;
@@ -118,6 +123,9 @@
     width:750px;
     height:300px;
     z-index:-1;
+}
+#latest {
+    font-size:22px;
 }
 
 /* Base Changes */
@@ -131,25 +139,24 @@ body {
     font-family:;
     font-size:60px;
     text-align: center;
+    padding:-5px;
    
 }
 
 /*About*/
 #aboutinfo p {
     font-size:22px;
-    width:100%;
 }
 
 /*Help*/
 #helpinfo {
-    width:65%;
-    font-size:25px;
+    font-size:26px;
 }
 
 
 /*Contact*/
 #contactinfo {
-    font-size:35px;
+    font-size:26px;
 }
 
 
