@@ -11,10 +11,10 @@
 
 /*Header*/
 #main-header {
-    background-image: url("images/bg small.jpg");
+    background-image: url("images/bg small tower.jpg");
+    width:90%;
     font-family: Neou;
-    width:75%;
-    padding-bottom:300px;
+    padding-bottom:220px;
     background-origin: content-box;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,16 +22,20 @@
 #headertxt {
     font-size:60px;
     position:relative;
-    top:150px;
+    top:100px;
     color:white;
-    text-shadow:3px 3px 2px black
+    text-shadow:2px 2px 2px black;
+    padding-bottom:10px;
 }
 #main-header h2 {
-    font-size:40px;
-    padding-bottom:10px;
+    font-size:30px;
+    top:170px;
+    postiion:relative;
+    padding-bottom:20px;
 }
 #main-button {
     width:50%;
+    padding-bottom:10px;
     color:white;
     position:relative;
     top:150px;
