@@ -21,17 +21,25 @@
     background-repeat: no-repeat;
 }
 
+#fbimg {
+    width:225px;
+    top:290px;
+    position:relative;
+}
+a:hover #fbimg {
+    width:235px;
+}
 #main-button {
     width:50%;
     color:white;
     position:relative;
-    top:375px;
+    top:325px;
     left:25%;
     right:25%;
     font-size:30px;
 }
 #main-button button p {
-    font-family:GeoSans;
+    font-family:Neou;
     margin-bottom: -10px;
 }
 #main-button button {
@@ -42,7 +50,8 @@
     box-shadow:3px 3px 2px black;
 }
 #main-button button:hover {
-    width:325px;
+    width:345px;
+    height:50px;
 }
 
 /*Nav*/
