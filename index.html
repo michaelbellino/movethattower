@@ -1,25 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>$(document).ready(function() {
-  var stickyNavTop = $('.nav').offset().top;
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-  var stickyNav = function(){
-    var scrollTop = $(window).scrollTop();
-
-    if (scrollTop > stickyNavTop) { 
-      $('.nav').addClass('sticky');
-    } else {
-      $('.nav').removeClass('sticky'); 
-    }
-  };
-
-  stickyNav();
-
-  $(window).scroll(function() {
-    stickyNav();
-  });
-});</script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>MOVE THE TOWER</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
