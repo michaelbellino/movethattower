@@ -135,6 +135,11 @@ body {
    
 }
 
+#discl {
+    font-size:18px;
+    color:crimson;
+}
+
 /*About*/
 #aboutinfo p {
     font-size:22px;
