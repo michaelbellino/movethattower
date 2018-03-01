@@ -14,7 +14,7 @@
     background-image: url("images/bg small tower.jpg");
     width:80%;
     height:480px;
-    font-family: Neou;
+    font-family: Karmina;
     padding-bottom:220px;
     background-origin: content-box;
     background-size: cover;
@@ -39,7 +39,7 @@ a:hover #fbimg {
     font-size:30px;
 }
 #main-button button p {
-    font-family:Neou;
+    font-family:Karmina;
     margin-bottom: -10px;
 }
 #main-button button {
