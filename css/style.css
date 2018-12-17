@@ -133,11 +133,15 @@ a:hover #fbimg {
 body {
     background-color:#bbe5a7;
     color:darkslategray;
+    font-family: 'Lato', sans-serif;
 }
+
+
+
 
 /*Section Header*/
 #secthead {
-    font-family:;
+    font-family:Lato;
     font-size:45px;
     text-align: center;
     padding:-5px;
